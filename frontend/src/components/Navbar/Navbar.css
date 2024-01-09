@@ -1,0 +1,58 @@
+.navBar {
+  background-color: #c34568;
+  color: #fff;
+  width: 100%;
+  height: fit-content;
+  padding: 0 2em!important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 15;
+}
+
+.navBar > ul {
+  padding: 0;
+  display: flex;
+  gap: 2em;
+  padding-right: 10em;
+}
+
+.navBar > ul li {
+  color: #fff;
+  list-style-type: none;
+}
+
+.burgerIcon {
+  color: #fff;
+  display: none;
+  font-size: 2em;
+  padding-right: 1.5em;
+}
+
+.navCross {
+  font-size: 1.5em;
+  align-self: flex-end;
+  display: none;
+}
+
+.cartCont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.cartCont p{
+ font-size: 0.7em;
+ cursor: pointer;
+}
+
+@media (max-width:340px){
+  .navBar{
+    font-size: 0.7em;
+  }
+}

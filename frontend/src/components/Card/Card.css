@@ -1,0 +1,77 @@
+.card {
+  height: 26rem;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* box-shadow: 0 16px 32px hsla(0, 0%, 65%, 0.801), 0 16px 32px rgba(134, 134, 134, 0.801); */
+}
+
+.cardImg {
+  width: 8rem !important;
+  height: 8rem !important;
+  object-fit: contain;
+  object-position: top;
+  align-self: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-title {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.card-text {
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size: 0.7rem;
+  color: #2e2e2e;
+  word-break: break-all;
+  height: 7em;
+}
+
+.cardButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  font-size: 0.7em;
+  width: fit-content;
+  background-color: #c34568;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.6em;
+  border-radius: 5px;
+  margin-top: auto;
+}
+
+.cardButton:active,
+.cardButton:focus,
+.cardButton:hover {
+  color: #fff;
+  background-color: #912f4b;
+}
+
+.buttonCont{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto!important;
+}
+
+.buttonCont p {
+  margin: 0!important;
+  font-weight: bold;
+}
+
+a{
+  cursor: pointer;
+}
